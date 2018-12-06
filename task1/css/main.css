@@ -1,0 +1,40 @@
+.background-header {
+    background-color: #e5de8e;
+}
+.background-main {
+    background-color: transparent;
+}
+.background-footer {
+    background-color: #348d71;
+}
+.container {
+    position: relative;
+    height: 100%;
+}
+.left {
+    width: 50%;
+    height: inherit;
+    position: absolute;
+    top: 0;
+    right: 50%;
+}
+.right {
+    width: 50%;
+    height: inherit;
+    position: absolute;
+    top: 0;
+    left: 50%;
+}
+.content {
+    line-height: 50px;
+    width: 1000px;
+    height: inherit;
+    margin: auto;
+    position: relative;
+}
+.content-main div {
+    display: inline-block;
+}
+.content-text-footer {
+    text-align: center;
+}
